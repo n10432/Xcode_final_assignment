@@ -1,0 +1,27 @@
+PODS:
+  - Material (2.4.6):
+    - Material/Core (= 2.4.6)
+  - Material/Core (2.4.6)
+  - MaterialKit (0.4)
+
+DEPENDENCIES:
+  - Material (~> 2.0)
+  - MaterialKit (from `https://github.com/faresbh/MaterialKit`, branch `swift3`)
+
+EXTERNAL SOURCES:
+  MaterialKit:
+    :branch: swift3
+    :git: https://github.com/faresbh/MaterialKit
+
+CHECKOUT OPTIONS:
+  MaterialKit:
+    :commit: 45bc7791f7e0583a94ced7d4cfc852fddc7800ca
+    :git: https://github.com/faresbh/MaterialKit
+
+SPEC CHECKSUMS:
+  Material: 43bd91d61e86ae2b6d6574e28fcb1ed48ff813cb
+  MaterialKit: 2e5267bcf410b82793f2b92d2111f8ae4ed2c3f2
+
+PODFILE CHECKSUM: 5a451add1ea5d0c0079262fb9e879b0eb32b267d
+
+COCOAPODS: 1.1.1

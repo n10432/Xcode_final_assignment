@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0515B6C4C44D1D895246837F /* Pods_financeTech.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19D61E76BA3C849DF9D5B6B6 /* Pods_financeTech.framework */; };
+		5E74D85E1E6EB33B00D82B7F /* downArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E74D85C1E6EB33B00D82B7F /* downArrow.png */; };
+		5E74D85F1E6EB33B00D82B7F /* upArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E74D85D1E6EB33B00D82B7F /* upArrow.png */; };
+		5E9D67261E6E50E3003FC8A3 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9D67251E6E50E3003FC8A3 /* Realm.framework */; };
+		5E9D67281E6E50F8003FC8A3 /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9D67271E6E50F8003FC8A3 /* RealmSwift.framework */; };
+		5E9D672A1E6E510C003FC8A3 /* ChartsRealm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9D67291E6E510C003FC8A3 /* ChartsRealm.framework */; };
+		5E9D672C1E6E5123003FC8A3 /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9D672B1E6E5123003FC8A3 /* Charts.framework */; };
+		8BA345491E54A21B0093BC62 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BA345471E54A21B0093BC62 /* Alamofire.framework */; };
+		8BA3454A1E54A21B0093BC62 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BA345481E54A21B0093BC62 /* SwiftyJSON.framework */; };
 		8BEEABFF1E422CA10004F023 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BEEABFE1E422CA10004F023 /* AppDelegate.swift */; };
 		8BEEAC011E422CA10004F023 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BEEAC001E422CA10004F023 /* ViewController.swift */; };
 		8BEEAC041E422CA10004F023 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BEEAC021E422CA10004F023 /* Main.storyboard */; };
@@ -14,6 +23,7 @@
 		8BEEAC091E422CA10004F023 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BEEAC071E422CA10004F023 /* LaunchScreen.storyboard */; };
 		8BEEAC141E422CA10004F023 /* financeTechTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BEEAC131E422CA10004F023 /* financeTechTests.swift */; };
 		8BEEAC1F1E422CA10004F023 /* financeTechUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BEEAC1E1E422CA10004F023 /* financeTechUITests.swift */; };
+		8BEEAC2D1E422D320004F023 /* getQuandlNikkei.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BEEAC2C1E422D320004F023 /* getQuandlNikkei.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +44,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		19D61E76BA3C849DF9D5B6B6 /* Pods_financeTech.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_financeTech.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E74D85C1E6EB33B00D82B7F /* downArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = downArrow.png; sourceTree = "<group>"; };
+		5E74D85D1E6EB33B00D82B7F /* upArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = upArrow.png; sourceTree = "<group>"; };
+		5E9D67251E6E50E3003FC8A3 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = Carthage/Build/iOS/Realm.framework; sourceTree = "<group>"; };
+		5E9D67271E6E50F8003FC8A3 /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmSwift.framework; path = Carthage/Build/iOS/RealmSwift.framework; sourceTree = "<group>"; };
+		5E9D67291E6E510C003FC8A3 /* ChartsRealm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ChartsRealm.framework; path = Carthage/Build/iOS/ChartsRealm.framework; sourceTree = "<group>"; };
+		5E9D672B1E6E5123003FC8A3 /* Charts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Charts.framework; path = Carthage/Build/iOS/Charts.framework; sourceTree = "<group>"; };
+		8BA345471E54A21B0093BC62 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		8BA345481E54A21B0093BC62 /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = Carthage/Build/iOS/SwiftyJSON.framework; sourceTree = "<group>"; };
 		8BEEABFB1E422CA10004F023 /* financeTech.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = financeTech.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BEEABFE1E422CA10004F023 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8BEEAC001E422CA10004F023 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +66,9 @@
 		8BEEAC1A1E422CA10004F023 /* financeTechUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = financeTechUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BEEAC1E1E422CA10004F023 /* financeTechUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = financeTechUITests.swift; sourceTree = "<group>"; };
 		8BEEAC201E422CA10004F023 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BEEAC2C1E422D320004F023 /* getQuandlNikkei.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = getQuandlNikkei.swift; sourceTree = "<group>"; };
+		F52507FF81451B953B71A477 /* Pods-financeTech.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-financeTech.debug.xcconfig"; path = "Pods/Target Support Files/Pods-financeTech/Pods-financeTech.debug.xcconfig"; sourceTree = "<group>"; };
+		F9755C2BD9AF0510CB5D559C /* Pods-financeTech.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-financeTech.release.xcconfig"; path = "Pods/Target Support Files/Pods-financeTech/Pods-financeTech.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +76,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E9D672C1E6E5123003FC8A3 /* Charts.framework in Frameworks */,
+				5E9D672A1E6E510C003FC8A3 /* ChartsRealm.framework in Frameworks */,
+				5E9D67281E6E50F8003FC8A3 /* RealmSwift.framework in Frameworks */,
+				5E9D67261E6E50E3003FC8A3 /* Realm.framework in Frameworks */,
+				8BA345491E54A21B0093BC62 /* Alamofire.framework in Frameworks */,
+				8BA3454A1E54A21B0093BC62 /* SwiftyJSON.framework in Frameworks */,
+				0515B6C4C44D1D895246837F /* Pods_financeTech.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +103,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1C0E3381FBD0ADD31A635937 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F52507FF81451B953B71A477 /* Pods-financeTech.debug.xcconfig */,
+				F9755C2BD9AF0510CB5D559C /* Pods-financeTech.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5E74D85B1E6EB31E00D82B7F /* image */ = {
+			isa = PBXGroup;
+			children = (
+				5E74D85C1E6EB33B00D82B7F /* downArrow.png */,
+				5E74D85D1E6EB33B00D82B7F /* upArrow.png */,
+			);
+			name = image;
+			sourceTree = "<group>";
+		};
+		8BA345461E54A21B0093BC62 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E9D672B1E6E5123003FC8A3 /* Charts.framework */,
+				5E9D67291E6E510C003FC8A3 /* ChartsRealm.framework */,
+				5E9D67271E6E50F8003FC8A3 /* RealmSwift.framework */,
+				5E9D67251E6E50E3003FC8A3 /* Realm.framework */,
+				8BA345471E54A21B0093BC62 /* Alamofire.framework */,
+				8BA345481E54A21B0093BC62 /* SwiftyJSON.framework */,
+				19D61E76BA3C849DF9D5B6B6 /* Pods_financeTech.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8BEEABF21E422CA10004F023 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +142,8 @@
 				8BEEAC121E422CA10004F023 /* financeTechTests */,
 				8BEEAC1D1E422CA10004F023 /* financeTechUITests */,
 				8BEEABFC1E422CA10004F023 /* Products */,
+				8BA345461E54A21B0093BC62 /* Frameworks */,
+				1C0E3381FBD0ADD31A635937 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,9 +160,11 @@
 		8BEEABFD1E422CA10004F023 /* financeTech */ = {
 			isa = PBXGroup;
 			children = (
+				5E74D85B1E6EB31E00D82B7F /* image */,
 				8BEEABFE1E422CA10004F023 /* AppDelegate.swift */,
 				8BEEAC001E422CA10004F023 /* ViewController.swift */,
 				8BEEAC021E422CA10004F023 /* Main.storyboard */,
+				8BEEAC2C1E422D320004F023 /* getQuandlNikkei.swift */,
 				8BEEAC051E422CA10004F023 /* Assets.xcassets */,
 				8BEEAC071E422CA10004F023 /* LaunchScreen.storyboard */,
 				8BEEAC0A1E422CA10004F023 /* Info.plist */,
@@ -132,9 +197,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8BEEAC231E422CA10004F023 /* Build configuration list for PBXNativeTarget "financeTech" */;
 			buildPhases = (
+				CEFC6484D5F98F008BB0D71C /* [CP] Check Pods Manifest.lock */,
 				8BEEABF71E422CA10004F023 /* Sources */,
 				8BEEABF81E422CA10004F023 /* Frameworks */,
 				8BEEABF91E422CA10004F023 /* Resources */,
+				8BA3454B1E54A22C0093BC62 /* ShellScript */,
+				96EEB58D7C0A00618F4A4C83 /* [CP] Embed Pods Frameworks */,
+				FF45388B3E3E1744C80F80DF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -234,6 +303,8 @@
 			files = (
 				8BEEAC091E422CA10004F023 /* LaunchScreen.storyboard in Resources */,
 				8BEEAC061E422CA10004F023 /* Assets.xcassets in Resources */,
+				5E74D85E1E6EB33B00D82B7F /* downArrow.png in Resources */,
+				5E74D85F1E6EB33B00D82B7F /* upArrow.png in Resources */,
 				8BEEAC041E422CA10004F023 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,11 +325,79 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8BA3454B1E54A22C0093BC62 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/SwiftyJSON.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Charts.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/ChartsRealm.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Realm.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RealmSwift.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+		96EEB58D7C0A00618F4A4C83 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-financeTech/Pods-financeTech-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CEFC6484D5F98F008BB0D71C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FF45388B3E3E1744C80F80DF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-financeTech/Pods-financeTech-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8BEEABF71E422CA10004F023 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BEEAC2D1E422D320004F023 /* getQuandlNikkei.swift in Sources */,
 				8BEEAC011E422CA10004F023 /* ViewController.swift in Sources */,
 				8BEEABFF1E422CA10004F023 /* AppDelegate.swift in Sources */,
 			);
@@ -408,8 +547,13 @@
 		};
 		8BEEAC241E422CA10004F023 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F52507FF81451B953B71A477 /* Pods-financeTech.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = financeTech/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = toshimitsu.financeTech;
@@ -420,8 +564,13 @@
 		};
 		8BEEAC251E422CA10004F023 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9755C2BD9AF0510CB5D559C /* Pods-financeTech.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = financeTech/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = toshimitsu.financeTech;
@@ -503,6 +652,7 @@
 				8BEEAC251E422CA10004F023 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8BEEAC261E422CA10004F023 /* Build configuration list for PBXNativeTarget "financeTechTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +661,7 @@
 				8BEEAC281E422CA10004F023 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8BEEAC291E422CA10004F023 /* Build configuration list for PBXNativeTarget "financeTechUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +670,7 @@
 				8BEEAC2B1E422CA10004F023 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

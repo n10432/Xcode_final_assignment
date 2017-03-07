@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Material-io.cosmicmind.material.fonts.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>Material-io.cosmicmind.material.icons.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>Material.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>MaterialKit.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
+		<key>Pods-financeTech.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>24085F438788A072884B3FA2E6E02D7C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>367E317BC931D2CEAF6293407D2544D2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>83A324D556977128B278B92BB2F5BE13</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9CAC23CBB7E9A00F71D065952F72A43E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BA287C1DC287EAA4A399B22703554187</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
