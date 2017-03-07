@@ -12,6 +12,8 @@ import Alamofire
 
 var globalStr:String = ""
 
+var dict2 = Dictionary<String, Any>()
+
 struct ButtonLayout {
     struct Flat {
         static let width: CGFloat = 120
@@ -58,7 +60,8 @@ class ViewController: UIViewController {
         let host = "https://www.quandl.com"
         let urlString = "/api/v3/datasets/NIKKEI/INDEX.json?api_key=4AioRsEyvJqav4u4zT8o&start_date=2014-02-26"
         let api = ApiManager(path: host+urlString)
-        api.request(success: { (data: Dictionary) in debugPrint(data) }, fail: { (error: Error?) in print(error) })
+        
+        api.request(success: { (data: Dictionary) in dict2 = data }, fail: { (error: Error?) in print(error) })
 
         
         
@@ -67,7 +70,6 @@ class ViewController: UIViewController {
     
     func showIndicator() {
         self.prepareRaisedButton(titleName: "予測中")
-        
         //別途用意したサーバから株価予測情報を取得する
         let url2: URL = URL(string: "http://52.6.82.159")!
         let task2 = URLSession.shared.dataTask(with: URLRequest(url: url2), completionHandler: { (data, response, error) in
@@ -111,6 +113,9 @@ class ViewController: UIViewController {
             let img = UIImage(named:"upArrow")
             self.arrow.image = img
             print(globalStr)
+            //最新の株価を取得
+            var test = dict2["dataset"]
+            //print(test![1])
             var resultValue:String = globalStr
             self.resultTextView.text = "終値の予想は"+resultValue+"となりました！"
         })
